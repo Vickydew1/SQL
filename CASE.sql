@@ -1,0 +1,20 @@
+--Select FirstName, LastName, Age,
+--CASE
+--	When Age > 30 THEN 'OLD'
+--	When Age = 38 Then 'Stanley'
+--	Else 'Young'
+--END
+--From DATAANALYST.dbo.EMP
+--where age is NOT Null
+--Order By Age;
+
+--Select FirstName,LastName, JobTitle,Salary,
+--CASE 
+--	When jobTitle = 'Salesman' Then Salary + (Salary * .10)
+--	When JobTitle = 'Accountant' then Salary + (Salary * .05)
+--	When JobTitle = 'HR' then Salary + (Salary * .00001)
+--	Else Salary + (Salary * .2)
+--End as salaryAfterRaise
+--from DATAANALYST.dbo.EMP
+--join DATAANALYST.dbo.EmpSal
+--on EMP.EmployeeID= EmpSal.EmployeeID;
